@@ -90,6 +90,7 @@ echo "</pre>";
 }*/
 foreach ($school as $key => $val) {
     $school[$key] = implode(",", $val);
+    //$school[] = implode(",", $val);
 }
 echo "<br>";
 
